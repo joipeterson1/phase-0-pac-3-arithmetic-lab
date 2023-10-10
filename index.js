@@ -49,22 +49,9 @@ function decrement(n){
 function makeInt(){
     //defining makeInt
 }
-function parseInt(){
-
-}
-function makeInt(n){
-  parseInt('n', 10)
-  return (n)
-}
-
-function preserveDecimal(){
-    //defining
-}
-function parseFloat(){
-
-}
-function preserveDecimal(n){
-    parseFloat(n) === 2.222
-    return (parseFloat(n))
-}
-
+function makeInt(string){
+    return parseInt(string,10)
+  }
+  function preserveDecimal(string){
+    return parseFloat(string)
+  }
